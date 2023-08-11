@@ -1,0 +1,60 @@
+
+* {
+    box-sizing: border-box;
+  }
+  body{
+    background-color: aqua;
+  }
+.a{
+    width: 60vh;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    border-radius: 25px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center ;
+    justify-content: flex-end;
+}
+
+
+/*password*/
+.p{
+   margin-top: 20px;
+}
+span{   
+     position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 10px;
+    size: a3;
+}
+ input[type=email]{
+    justify-content: center;
+    border: 5px 0px 0px 0px solid rgb(6, 61, 145);
+    height: 30px;
+    width: 250px;
+    padding-inline: 40px ;
+    padding-inline-end: 9px;
+    
+
+   
+ }
+ input[type=password]{
+    border-color: rgb(20, 196, 196);
+    height: 25px;   
+    width: 250px;
+ }
+ .singup{
+    margin-top: 10px;
+ }
+ input[type=button]{
+    padding: 10px;
+    margin-top: 50px;
+ }
